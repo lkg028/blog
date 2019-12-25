@@ -56,15 +56,15 @@ rss: /atom.xml
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
 #
 leancloud:  
-  enable: false
-  app_id: chaSYi8FMdJBwzIBpxeNjqWC-gzGzoHsz
-  app_key: PqqkLYgPkHvH1BmyQqySWnSK
+  enable: true
+  app_id: JYGJAIgDkSKSDgp5pUPfyxoO-MdYXbMMI
+  app_key: T36nhlVVvMa1c33Tee3F13JM
 #
 # Valine配置
 #
 valine:
-  enable: false # 是否启用
-  avatar: mp # 头像样式(https://valine.js.org/avatar.html)
+  enable: true # 是否启用
+  avatar: identicon # 头像样式(https://valine.js.org/avatar.html)
   placeholder: 给我的文章加点评论吧~ # placeholder
 
 # 2、Gitalk(https://github.com/gitalk/gitalk)
