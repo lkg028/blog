@@ -45,8 +45,8 @@ VPS的选择很大程度上决定了使用这台vps的方便程度以及需要�
 
 服务商一般会提供许多的Linux发行版，如果**有经验**的话可以自行选择，甚至用没有提供的发行版的iso自己定制也行，但如果**没有经验**的话，可以参考以下内容：
 
-1. CentOS![centos](https://i.loli.net/2019/11/04/sm1NDV3Yalr6byQ.png)：目前可以说是在个人的服务器范围内使用最广泛的Linux发行版了，它源自RedHat，一家专业为企业提供稳定服务的Linux发行版，因此十分稳定，基本不会出现什么问题
-2. Ubuntu Server![ubuntu](https://i.loli.net/2019/11/04/afdP1RBeozynFuH.png)：同CentOS一样都是十分稳定的发行版，虽说是基于Debian但是Ubuntu和Debian还是有着很大差别的，已经完全可以视为两个系统了
+1. CentOS: 目前可以说是在个人的服务器范围内使用最广泛的Linux发行版了，它源自RedHat，一家专业为企业提供稳定服务的Linux发行版，因此十分稳定，基本不会出现什么问题
+2. Ubuntu Server: 同CentOS一样都是十分稳定的发行版，虽说是基于Debian但是Ubuntu和Debian还是有着很大差别的，已经完全可以视为两个系统了
 
 目前绝大多数的个人用户所使用的都是这两个发行版吧，网上有关的教程也非常全面，非常适合新手入门
 
