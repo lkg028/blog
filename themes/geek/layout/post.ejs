@@ -9,6 +9,8 @@
         <%- page.content %>
     </div>
     <% if (page.comments) { %>
+    <%- partial('_partial/top') %>
+
     <br>
     <br>
     <hr>
@@ -16,7 +18,7 @@
       声明：版权所有，违者必究 | 如未注明，均为原创 | 本网站采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">BY-NC-SA</a> 协议进行授权</br>
       如欲转载请注明原文链接 - <a href="<%- page.permalink %>"><%- page.title %></a>
     </div>
-        <hr class="fhr">
-        <%- partial('_partial/valine') %>
+    <hr class="fhr">
+    <%- partial('_partial/valine') %>
     <% } %>
 </div>
