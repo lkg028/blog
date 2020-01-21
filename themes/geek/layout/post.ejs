@@ -10,6 +10,13 @@
         <%- page.content %>
     </div>
     <% if (page.comments) { %>
+    <br>
+    <br>
+    <hr>
+    <div class="announcement">
+      声明：版权所有，违者必究 | 如未注明，均为原创 | 本网站采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">BY-NC-SA</a> 协议进行授权
+      转载：转载请注明原文链接 - <a href="<%- page.permalink %>"><%- page.title %></a>
+    </div>
         <hr class="fhr">
         <div id="vcomments"></div>
     <% } %>
