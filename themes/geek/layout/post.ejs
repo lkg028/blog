@@ -20,5 +20,12 @@
     </div>
         <hr class="fhr">
         <div id="vcomments"></div>
+        <script>
+            new Valine({
+                el: '#vcomments',
+                appId: '<%- theme.valine.appid %>',
+                appKey: '<%- theme.valine.appkey %>'
+            })
+        </script>
     <% } %>
 </div>
