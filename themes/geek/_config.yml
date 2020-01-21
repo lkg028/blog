@@ -1,5 +1,4 @@
 logo_title: Pcrab 的日常
-
 style: white
 
 favicon: /favicon.ico
@@ -18,3 +17,5 @@ valine:
 
 highlight:
   enable: true
+
+  url: https://pcrab.ml
