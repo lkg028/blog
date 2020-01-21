@@ -19,13 +19,6 @@
       如欲转载请注明原文链接 - <a href="<%- page.permalink %>"><%- page.title %></a>
     </div>
         <hr class="fhr">
-        <div id="vcomments"></div>
-        <script>
-            new Valine({
-                el: '#vcomments',
-                appId: '<%- theme.valine.appid %>',
-                appKey: '<%- theme.valine.appkey %>'
-            })
-        </script>
+        <%- partial('_partial/valine') %>
     <% } %>
 </div>
