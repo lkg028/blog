@@ -1,7 +1,7 @@
 ---
 title: Caps 键与 Esc 键交换
 date: 2020-01-14 10:51:11
-tags:
+tags: [linux, vim]
 ---
 
 
