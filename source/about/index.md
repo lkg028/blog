@@ -18,7 +18,7 @@ date: 2019-12-29 12:49:55
 
 ### 生成
 
-本博客由 **[hexo](hexo.io)** 生成，具体搭建过程可查看**[本文](https://pcrab.ml/2019/12/24/init-my-own-blog/)**
+本博客由 **[hexo](https://hexo.io)** 生成，具体搭建过程可查看**[本文](https://pcrab.ml/2019/12/24/init-my-own-blog/)**
 
 ### 主题
 
