@@ -49,7 +49,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -92,7 +92,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: geek
+theme: quark
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
