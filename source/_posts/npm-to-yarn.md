@@ -1,7 +1,7 @@
 ---
 title: npm-to-yarn
 date: 2020-01-07 12:58:13
-tags:
+tags: [frontend]
 ---
 
 推荐使用 npm 的用户将 npm 切换为 yarn
