@@ -105,8 +105,8 @@ cp -r blog/.git <folder>
 然后安装需要的插件和模块
 
 ```shell
-yarn install hexo-generator-searchdb --save
-yarn install hexo-generator-feed --save
+yarn install hexo-generator-searchdb
+yarn install hexo-generator-feed
 ```
 
 ## 部署
