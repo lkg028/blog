@@ -38,7 +38,7 @@ Linux各个发行版不同，安装nodejs的方法也不尽相同，一般都是
 > apt命令适用于Debian和基于Debian的发行版
 
 ```bash
-apt install nodejs npm
+apt install nodejs yarn
 ```
 
 - 红帽系
@@ -47,10 +47,10 @@ apt install nodejs npm
 
 ```bash
 # CentOS & RHEL
-yum install nodejs npm
+yum install nodejs yarn
 
 # Fedora
-dnf install nodejs npm
+dnf install nodejs yarn
 ```
 
 - arch系
@@ -58,7 +58,7 @@ dnf install nodejs npm
 > 包括archlinux，manjaro等
 
 ```bash
-pacman -S nodejs npm
+pacman -S nodejs yarn
 ```
 
 #### macOS
@@ -74,7 +74,7 @@ brew install node
 git和nodejs安装完成后，就可以安装hexo了
 
 ```sh
-npm install -g hexo-cli
+yarn global install hexo-cli
 ```
 
 ## 初始化hexo
@@ -82,7 +82,7 @@ npm install -g hexo-cli
 ```shell
 hexo init <folder>
 cd <folder>
-npm install
+yarn install
 ```
 
 如此就完成了hexo的初始化工作
@@ -105,8 +105,8 @@ cp -r blog/.git <folder>
 然后安装需要的插件和模块
 
 ```shell
-npm install hexo-generator-searchdb --save
-npm install hexo-generator-feed --save
+yarn install hexo-generator-searchdb --save
+yarn install hexo-generator-feed --save
 ```
 
 ## 部署
