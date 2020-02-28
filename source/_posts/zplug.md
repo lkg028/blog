@@ -2,6 +2,7 @@
 title: 使用 zplug 作为 zsh 插件管理器
 date: 2020-02-07 16:35:39
 tags:
+    - linux
 ---
 
 
