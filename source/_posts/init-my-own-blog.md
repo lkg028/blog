@@ -1,8 +1,8 @@
 ---
 title: 本地初始化本blog
-date: 2019-12-24 13:09:34
 tags: 
 	- blog
+date: 2019-12-24 13:09:34
 ---
 
 这是一篇记录，或者说是备份，记录如何安装本blog
@@ -106,8 +106,9 @@ cp -r blog/.git <folder>
 然后安装需要的插件和模块
 
 ```shell
-yarn install hexo-generator-searchdb
-yarn install hexo-generator-feed
+yarn install hexo-generator-searchdb --save
+yarn install hexo-generator-feed --save
+yarn install hexo-reference --save
 ```
 
 ## 部署

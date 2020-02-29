@@ -1,6 +1,7 @@
 ---
 title: 开箱 - 一方通行手办
-tags: open-box
+tags:
+	- open-box
 date: 2020-01-21 19:31:45
 ---
 
