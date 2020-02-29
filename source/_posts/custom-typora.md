@@ -1,7 +1,7 @@
 ---
-title: typora
+title: 自定义 Typora
 tags:
-  - typora
+  - Typora
   - software
 date: 2020-02-29 12:19:59
 ---
