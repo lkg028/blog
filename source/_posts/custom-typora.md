@@ -29,7 +29,7 @@ date: 2020-02-29 12:19:59
 
 
 
-首先需要打开软件，选择 `File` -> `Preference` ，然后就可以进行一定程度的简单自定义了
+首先需要打开软件，选择 `File -> Preference` ，然后就可以进行一定程度的简单自定义了
 
 
 
@@ -39,7 +39,7 @@ date: 2020-02-29 12:19:59
 
 
 
-Typora 自带了一定的主题，在菜单栏中的 `Themes` 栏中，可以进行选择，默认的有 `Github` , `Newsprint` , `Night` , `Pixyll` , `Whitey`这些主题
+Typora 自带了一定的主题，在菜单栏中的 `Themes` 栏中，可以进行选择，默认的有 Github , Newsprint , Night , Pixyll , Whitey 这些主题
 
 
 
