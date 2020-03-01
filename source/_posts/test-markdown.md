@@ -4,6 +4,7 @@ tags:
   - blog
   - test
 date: 2019-12-31 15:45:08
+mathjax: true
 ---
 
 
@@ -38,3 +39,14 @@ public class HelloWorld{
 
 [超链接测试](https://blog.pcrab.ml/)
 
+行内数学公式 $ 1 + 1 = 2 $
+
+多行公式
+
+$$
+    \frac{\partial u}{\partial t}
+    = h^2 \left( \frac{\partial^2 u}{\partial x^2} +
+    \frac{\partial^2 u}{\partial y^2} +
+    \frac{\partial^2 u}{\partial z^2}\right)
+    中文测试
+$$
