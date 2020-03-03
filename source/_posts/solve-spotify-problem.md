@@ -1,7 +1,7 @@
 ---
 title: 解决 Linux 端 Spotify 突然无法打开的问题
 tags:
-	－ linux
+	- linux
 date: 2020-03-02 13:49:24
 ---
 
