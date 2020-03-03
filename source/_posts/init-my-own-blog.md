@@ -2,7 +2,6 @@
 title: 本地初始化本blog
 tags:
 	- blog
-   	- series
 date: 2020-03-01 11:58:34
 ---
 
