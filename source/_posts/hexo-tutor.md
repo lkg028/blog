@@ -25,7 +25,7 @@ date: 2020-03-05 22:26:30
 
 而我选择了使用 [Hexo](https://hexo.io/zh-cn/) 来搭建我的个人博客。
 
-![img](https://cdn.sspai.com/2020/03/05/fbeb87d138cc1c32f7c3f5814c79c024.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)Hexo 中文官网
+![img](https://cdn.sspai.com/2020/03/05/fbeb87d138cc1c32f7c3f5814c79c024.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 
 在我看来，它相对于其他的框架，有着以下优势：
 
@@ -44,7 +44,7 @@ date: 2020-03-05 22:26:30
 
 Git 的安装可以在 [这里](https://git-scm.com/downloads) 找到，我就不提太多了，主要说一下安装完成后的各项配置。 Git 在提交更改的时候，会需要提交者的邮箱和用户名，这可以通过以下命令来设置：
 
-```
+```bash
 git config --global user.email "Your email 你的邮箱"
 git config --global user.name "Your username 你的用户名"
 ```
@@ -65,17 +65,17 @@ Yarn 的安装方法也在 [官网](https://classic.yarnpkg.com/en/docs/install)
 
 如果使用 Yarn 进行安装，那么安装命令将会是： `yarn global add hexo-cli` ，其中记住 global 参数必须在 add 的前面，这样进行的全局安装是安装在用户家目录下的，因此不需要 root 权限。 
 
-![img](https://cdn.sspai.com/2020/03/05/343f135a386c5f0b45c867aacb5b86e0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)通过 Yarn 安装 Hexo
+![img](https://cdn.sspai.com/2020/03/05/343f135a386c5f0b45c867aacb5b86e0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 
 接下来是初始化 hexo 文件夹，之后所有操作都会在这个文件夹中进行。后文所指的根目录就是代指这里。 
 
 通过 `hexo init` 命令来初始化，之后可以加上文件夹名称来制定初始化的文件夹位置，不然默认将会在当前文件夹进行初始化。初始化的目录下不能有任何文件，否则会报错。
 
-![img](https://cdn.sspai.com/2020/03/05/9225cbb5e0fbfb6b7e63a4143d56f098.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)将 temp 目录做为博客根目录
+![img](https://cdn.sspai.com/2020/03/05/9225cbb5e0fbfb6b7e63a4143d56f098.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 
 下图是使用 Yarn 安装的成果，如果使用的是 npm 进行安装，那么 yarn.lock 文件将被 package-lock.json 所替代
 
-![img](https://cdn.sspai.com/2020/03/05/0d5f8b8d3f51e1ef423210b3ea4ac3d6.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)Hexo 根目录
+![img](https://cdn.sspai.com/2020/03/05/0d5f8b8d3f51e1ef423210b3ea4ac3d6.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)Hexo 
 
 ## 简单介绍
 
@@ -91,7 +91,7 @@ Yarn 的安装方法也在 [官网](https://classic.yarnpkg.com/en/docs/install)
 
 这个文件使用的是 yaml 语法写成的，正常情况下不用掌握任何变成知识也能看懂，注意，# 后的内容是注释，将会被无视。文件中我认为比较重要的是 Site， theme 还有 deploy 这几块。deploy 将在之后讲到部署的时候再提。这里就简单说明一下 Site 和 theme
 
-```
+```yaml
 title: Hexo    # title 的作用是在浏览其中打开时，显示在标签页上的标题
 subtitle: ''    # 副标题在某些主题中会被显示，但更有可能直接无视
 description: ''    # 用于被搜索引擎捕获时告知其站点的基本信息
@@ -163,7 +163,7 @@ timezone: ''    # 设置时区，中国可以直接写成 Asia/Shanghai
 
 Hexo 每一篇生成的文章开头都会有一段由两行 「---」包裹起来的内容，称为 Front-matter
 
-```
+```yaml
 ---
 title: my-test-draft
 date: 2020-03-05 13:47:52
@@ -177,7 +177,7 @@ date 指的是文件被发布的时间，如果是直接生成的时间，那就
 
 tags 指的是文章的标签，可以打上多个，如下所示：
 
-```
+```yaml
 tags:
     - tag1
     - tag2
@@ -186,7 +186,7 @@ tags:
 
 当然如果不需要使用多个 tag 的情况下，可以直接将唯一的 tag 直接加到 tags 后面，就像这样： 
 
-```
+```yaml
 tags: onlyTag 
 ```
 
@@ -204,9 +204,9 @@ tags: onlyTag
 
 其二就是摘要。每一篇生成的博文应该都会出现在 Hexo 的主页上。如果不使用摘要，那么每一篇文章都会全文显示在主页上，这是很不美观，也很浪费资源的一种方式。如果使用摘要，那么主页上只会显示一小段内容，不仅吸引了读者，还能使得整个博客网站更加优雅。摘要必须写在文章开头，紧接着文件头部。当摘要写作完成后，另起一行输入 `` 即可，这样上面的内容就能被识别，并显示在主页上。不过，这段摘要同样也会在博文页面中被显示出来，需要注意。
 
-![img](https://cdn.sspai.com/2020/03/05/ea1838cfd33e57fd4119c76ccee92707.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)整个首页就被一篇文章所占据
+![img](https://cdn.sspai.com/2020/03/05/ea1838cfd33e57fd4119c76ccee92707.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 
-![img](https://cdn.sspai.com/2020/03/05/e4f1538a2c1543d27645f6b08ebb2761.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)这样显然更美观
+![img](https://cdn.sspai.com/2020/03/05/e4f1538a2c1543d27645f6b08ebb2761.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 
 ## 博客部署
 
@@ -236,7 +236,7 @@ tags: onlyTag
 >
 > 要快速跳转，需要执行 `cd ~` 命令
 
-![img](https://cdn.sspai.com/2020/03/05/823705aa2002fc3c631e41a57cd3f2a9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)我这里因为是演示用，邮箱就不换了
+![img](https://cdn.sspai.com/2020/03/05/823705aa2002fc3c631e41a57cd3f2a9.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 
 打开文件夹，会看到里面有 id_rsa 和 id_rsa.pub 两个文件，前者为私钥，需要小心保存在本地，千万不能丢失，后者为公钥，是要上传到 GitHub 服务器上使用的。（Windows 下可能会奇怪地把 .pub 格式与 office 套件关联，请右键选择直接用记事本打开） 
 
@@ -254,7 +254,7 @@ tags: onlyTag
 
 打开本地的 _config.yml，找到 deploy （正常情况下在文件最后），将其修改为：
 
-```
+```yaml
 deploy:
     type: git
     repo: <刚刚复制下来的内容>
@@ -263,7 +263,7 @@ deploy:
 
 再找到 URL 下的 url（在文件开头处），将其修改为
 
-```
+```yaml
 #URL
 url: https://<username>.github.io
 ```
@@ -335,9 +335,10 @@ Hexo 默认不支持脚注的 markdown 语法，需要安装这个插件来辅�
 
 具体语法如下：
 
-```
-这是一些莫名其妙的话[^1]
-[^1]: 这里就是脚注
+```markdown
+这是一些莫名其妙的话[\^1]
+\[^1\]: 这里就是脚注
+(适用的时候请删除\)
 ```
 
 由于脚注语法不知道什么时候就可能会用上，因此也比较建议安装。
