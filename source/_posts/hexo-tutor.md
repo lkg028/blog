@@ -127,7 +127,7 @@ timezone: ''    # 设置时区，中国可以直接写成 Asia/Shanghai
 
 #### hexo new
 
-这个命令是新建一篇博文，具体的使用方法为：`hexo new [layout] `，其中 layout 为可选项，选择这篇博文的布局，常见的有 post 和 draft 两种，post 会将其放置在 _posts 文件夹中，而 draft 则在 _drafts 中。如果不填写，默认将会选择 post。title 则是必选项，会做为文件名称，生成的文件就是 <title>.md。
+这个命令是新建一篇博文，具体的使用方法为：`hexo new [layout] `，其中 layout 为可选项，选择这篇博文的布局，常见的有 post 和 draft 两种，post 会将其放置在 _posts 文件夹中，而 draft 则在 _drafts 中。如果不填写，默认将会选择 post。title 则是必选项，会做为文件名称，生成的文件就是 `<title>.md`。
 
 ![img](https://cdn.sspai.com/2020/03/05/9af3110a1d0a4c0b1dbf4a556cfdb4db.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1)
 
@@ -171,7 +171,7 @@ tags:
 ---
 ```
 
-title 指的是博文的标题，默认生成的标题与使用 hexo new 命令中输入的 <title> 相同，但是可以自行更改。
+title 指的是博文的标题，默认生成的标题与使用 hexo new 命令中输入的 `<title>` 相同，但是可以自行更改。
 
 date 指的是文件被发布的时间，如果是直接生成的时间，那就与生成时间相同，如果是由 draft 通过 hexo publish 命令发布的，那就与 publish 的时间相同。
 
