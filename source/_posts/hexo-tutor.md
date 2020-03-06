@@ -326,7 +326,6 @@ Hexo 的插件多由 node.js 写成，因此介绍的安装方法基本都是在
 
 **[hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed)**
 
-少数派应该是人均 RSS 用户？（误）
 这款插件能够生成 RSS 链接，生成的地址为 <site url>/atom.xml ，例如 yoursite.github.io/atom.xml ，是很好用的一个插件。
 
 **[hexo-reference](https://github.com/quentin-chen/hexo-reference)**
