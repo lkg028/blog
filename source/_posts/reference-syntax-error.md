@@ -1,5 +1,5 @@
 ---
-title: reference-syntax-error
+title: hexo-reference 插件使用的注意事项
 tags:
 	- blog
 date: 2020-03-06 08:09:07
