@@ -12,7 +12,7 @@ date: 2019-12-29 12:49:55
 
 ### 主题
 
-因为一开始对相关知识并不很了解，博客的主题最初 clone 自[geek](https://github.com/sanjinhub/hexo-theme-geek) ，但是在使用的过程中发现了挺多问题，~~然后自己不断修修改改，基本上能算得上自己重新写过了吧 233~~ 现在真的重新写了属于自己的主题 [quark](https://github.com/Pcrab/hexo-theme-quark) ，喜欢的可以去 github  上看看，另外这个主题已经发布在了
+因为一开始对相关知识并不很了解，博客的主题最初 clone 自[geek](https://github.com/sanjinhub/hexo-theme-geek) ，但是在使用的过程中发现了挺多问题，~~然后自己不断修修改改，基本上能算得上自己重新写过了吧 233~~ 现在真的重新写了属于自己的主题 [quark](https://github.com/Pcrab/hexo-theme-quark) ，喜欢的可以去 github  上看看，另外这个主题已经发布在了 GitHub 上。
 
 ### 评论
 
