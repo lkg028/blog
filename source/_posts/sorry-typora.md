@@ -1,5 +1,5 @@
 ---
-title: sorry-typora
+title: 对 Typora 错误评价的修正
 tags:
   - software
 date: 2020-03-09 21:46:01
