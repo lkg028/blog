@@ -97,7 +97,6 @@ yarn global add hexo-cli
 # <folder> 指的是你的 hexo blog 文件夹位置，不指定的话默认为当前文件夹
 hexo init <folder>
 cd <folder>
-yarn install
 ```
 
 如此就完成了hexo的初始化工作
@@ -121,7 +120,13 @@ cp -r blog/.git <folder>
 
 来复制，记住一定要执行下面这行，不然只执行上一行不会复制隐藏文件过去
 
-然后安装需要的插件和模块 ( 这里安装的插件因人而异，并且一定要看插件的文档来安装与配置，以下是我个人使用的一些插件 )
+之后安装插件，如果是克隆下来而非全新安装，则需要执行
+
+```shell
+yarn
+```
+
+来安装插件，而如果是重新安装，则需要手动安装需要的插件。( 这里安装的插件因人而异，并且一定要看插件的文档来安装与配置，以下是我个人使用的一些插件 )
 
 ```shell
 yarn install hexo-generator-searchdb --save
