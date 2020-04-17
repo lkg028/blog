@@ -129,10 +129,10 @@ yarn
 来安装插件，而如果是重新安装，则需要手动安装需要的插件。( 这里安装的插件因人而异，并且一定要看插件的文档来安装与配置，以下是我个人使用的一些插件 )
 
 ```shell
-yarn install hexo-generator-searchdb --save
-yarn install hexo-generator-feed --save
-yarn install hexo-reference --save
-yarn install hexo-filter-mathjax --save
+yarn add hexo-generator-searchdb
+yarn add hexo-generator-feed
+yarn add hexo-reference
+yarn add hexo-filter-mathjax
 ```
 
 ## 本地部署
